@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">?attr/colorAccent</item>
+        <item name="android:buttonStyle">@style/AppTheme.ButtonStyle</item>
+    </style>
+    <style name="AppTheme.ActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/AppTheme.TextStyle</item>
+    </style>
+    <style name="AppTheme.TextStyle">
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+    <style name="AppTheme.ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="RedTheme" parent="AppTheme">
+        <item name="colorAccent">@color/red</item>
+    </style>
+
+    <style name="GreenTheme" parent="AppTheme">
+        <item name="colorAccent">@color/green</item>
+    </style>
+
+    <style name="YellowTheme" parent="AppTheme">
+        <item name="colorAccent">@color/yellow</item>
+    </style>
+
+    <style name="BlueTheme" parent="AppTheme">
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+    <style name="PinkTheme" parent="AppTheme">
+        <item name="colorAccent">@color/pink</item>
+    </style>
+
+    <style name="GrayTheme" parent="AppTheme">
+        <item name="colorAccent">@color/gray</item>
+    </style>
+</resources>
